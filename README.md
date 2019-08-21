@@ -1,0 +1,1 @@
+# yum-auto-update-Centos-Redhad
