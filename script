@@ -1,4 +1,5 @@
 yum -y install yum-cron
+
 EMAIL=your@email.com
 sed -i "s|^email_to = root|email_to = ${EMAIL}|" /etc/yum/yum-cron.conf
 sed -i 's|^update_messages = no|update_messages = yes|' /etc/yum/yum-cron.conf
